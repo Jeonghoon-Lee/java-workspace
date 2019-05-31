@@ -57,6 +57,7 @@ public class Person implements Comparable<Person> {
         return Objects.hash(id, name, family);
     }
 
+    // Compare Person object using Id
     @Override
     public int compareTo(Person o) {
         return this.getId() - o.getId();
