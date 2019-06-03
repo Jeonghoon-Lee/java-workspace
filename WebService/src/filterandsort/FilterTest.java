@@ -16,7 +16,7 @@ public class FilterTest {
         empList.add(new Employee("Daniel", "Lee", 3300, true));
 
         System.out.println("---- Initial data ----");
-        empList.forEach(e -> System.out.println(e));
+        empList.forEach(System.out::println);
     }
 
     static void sortUsingStreamFilter() {

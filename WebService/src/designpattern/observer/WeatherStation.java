@@ -21,14 +21,17 @@ public class WeatherStation {
         CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);
         StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
 
+        // set initial weather data
+        weatherData.setMeasurements(25, 30.5, 30.4);
+
+        // update weather data
         try (Scanner sc = new Scanner(System.in)) {
             while (true) {
                 System.out.print("\nType any key to get new Weather data (X to Exit): ");
                 String userInput = sc.nextLine();
-                if ((userInput != null) && userInput.equalsIgnoreCase("X"))
-                    break;
 
-                // generate new weather data
+                if ((userInput != null) && userInput.equalsIgnoreCase("X")) break;
+                // set new weather data
                 weatherData.setMeasurements(getRandomTemp(), getRandomHumidity(), 30.4f);
             }
         }
