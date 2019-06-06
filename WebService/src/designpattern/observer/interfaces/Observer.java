@@ -1,5 +1,3 @@
-package designpattern.observer.interfaces;
-
 public interface Observer {
-    void update(double temp, double humidity, double pressure);
+    void update(double dowJones, double nasdag);
 }
