@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258a83fd-9ad7-4047-bf64-316019f1e6c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/basic/PrintNumberThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/basic/ThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/PrintNumberThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/TestThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/sync/AccountWithSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/sync/AccountWithSync.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,12 +19,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/multithreading/sync/AccountWithSync.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="31" column="33" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="722">
+              <caret line="47" column="62" lean-forward="true" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,7 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,13 +128,27 @@
               <item name="WebService" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
+              <item name="sync" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="playground" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,16 +281,17 @@
       <workItem from="1559530062093" duration="1365000" />
       <workItem from="1559565975039" duration="3105000" />
       <workItem from="1559610824825" duration="6858000" />
+      <workItem from="1559775156673" duration="945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62397000" />
+    <option name="totallyTimeSpent" value="63342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19296375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -551,19 +560,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/multithreading/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithreading/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/designpattern/strategy/behaviors/SpeakEnglish.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -657,25 +654,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/multithreading/sync/AddAPennyTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithreading/sync/AddAPennyTask.java" />
     <entry file="file://$PROJECT_DIR$/src/multithreading/sync/AccountWithSync.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="722">
+          <caret line="47" column="62" lean-forward="true" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
           </folding>
         </state>
       </provider>
