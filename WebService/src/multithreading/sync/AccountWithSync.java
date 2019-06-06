@@ -29,7 +29,7 @@ public class AccountWithSync {
     private static class AddAPennyTask implements Runnable {
         @Override
         public void run() {
-            synchronized (account) {
+            synchronized ( ) {
                 account.deposit(1);
             }
         }
