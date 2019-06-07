@@ -1,0 +1,14 @@
+{
+	"id": 28,
+	"firstName": "Masoud",
+	"lastName": "Parsa",
+	"active": true,
+	"address": {
+		"street": "100 Saint Catherine St",
+		"city": "Montreal",
+		"state": "Quebec",
+		"zip": "H3H 282",
+		"country": "CA"
+	},
+	"languages" : ["Java", "Swift", "Python", "Javascript"]
+}
