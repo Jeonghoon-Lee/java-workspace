@@ -1,3 +1,5 @@
+package day2_linkedlist;
+
 public class LinkedList {
     private Node1 head;
 

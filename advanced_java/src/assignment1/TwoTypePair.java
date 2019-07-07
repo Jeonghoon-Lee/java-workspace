@@ -1,3 +1,5 @@
+package assignment1;
+
 import java.util.Objects;
 
 public class TwoTypePair<T1, T2> {
@@ -34,6 +36,7 @@ public class TwoTypePair<T1, T2> {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+
         TwoTypePair<?, ?> that = (TwoTypePair<?, ?>) o;
         return Objects.equals(first, that.first) &&
                 Objects.equals(second, that.second);
@@ -46,7 +49,7 @@ public class TwoTypePair<T1, T2> {
 
     @Override
     public String toString() {
-        return "TwoTypePair{" +
+        return "{" +
                 "first=" + first +
                 ", second=" + second +
                 '}';

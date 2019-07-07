@@ -1,3 +1,5 @@
+package day2_linkedlist;
+
 import java.util.Objects;
 
 public class Node1 {
@@ -43,7 +45,7 @@ public class Node1 {
 
     @Override
     public String toString() {
-        return "Node1{" +
+        return "day2_linkedlist.Node1{" +
                 "name='" + name + '\'' +
                 '}';
     }

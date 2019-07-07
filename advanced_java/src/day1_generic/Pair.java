@@ -1,3 +1,4 @@
+package day1_generic;
 
 public class Pair<T>
 {

@@ -1,3 +1,5 @@
+package day1_generic;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
