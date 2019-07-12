@@ -12,7 +12,7 @@ public class HashTableDemo {
         System.out.println("\n--- 1. Read text from words.txt");
 
         // try-with-resource statement
-        try (Scanner inputStream = new Scanner(new FileInputStream("words.txt"))) {
+        try (Scanner inputStream = new Scanner(new FileInputStream("res\\words.txt"))) {
             System.out.println("\n--- 2. Create a linked list using each tokens of input file");
             inputStream.tokens().forEach(token -> {
                 // use Regular expression for excluding string containing vowel
