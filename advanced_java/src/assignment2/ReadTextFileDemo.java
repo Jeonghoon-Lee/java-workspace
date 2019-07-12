@@ -11,7 +11,7 @@ public class ReadTextFileDemo {
         System.out.println("\n--- 1. Read text from let_it_be.txt");
 
         // try-with-resource statement
-        try (Scanner inputStream = new Scanner(new FileInputStream("let_it_be.txt"))) {
+        try (Scanner inputStream = new Scanner(new FileInputStream("res\\let_it_be.txt"))) {
             System.out.println("\n--- 2. Create a linked list using each tokens of input file");
             inputStream.tokens().forEach(token -> tokenList.addToTail(token));
 
