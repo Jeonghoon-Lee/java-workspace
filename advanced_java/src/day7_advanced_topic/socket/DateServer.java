@@ -1,4 +1,4 @@
-package day7_advanced_topic;
+package day7_advanced_topic.socket;
 
 import java.util.Date;
 import java.net.ServerSocket;

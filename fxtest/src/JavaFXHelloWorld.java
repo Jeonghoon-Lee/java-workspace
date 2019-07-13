@@ -1,19 +1,17 @@
-package sample;
-
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
-public class Main extends Application {
-
+public class JavaFXHelloWorld extends Application
+{
     public void start(Stage primaryStage)
     {
-        Label label1 = new Label();
-        Label label2 = new Label();
-        label1.setText("Hello");
-        label2.setText(" World");
+		Label label1 = new Label();
+		Label label2 = new Label();
+		label1.setText("Hello");
+		label2.setText(" World");
 
         HBox root = new HBox();
         root.getChildren().add(label1);

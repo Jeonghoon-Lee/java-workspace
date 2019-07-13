@@ -1,4 +1,4 @@
-package day7_advanced_topic;
+package day7_advanced_topic.multithreading;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;

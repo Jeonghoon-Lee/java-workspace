@@ -1,4 +1,4 @@
-package day7_advanced_topic;
+package day7_advanced_topic.socket;
 
 import java.net.Socket;
 import java.io.DataOutputStream;

@@ -1,4 +1,4 @@
-package day7_advanced_topic;
+package day7_advanced_topic.multithreading;
 
 import java.util.logging.Logger;
 import java.util.logging.Level;
