@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e776c5a-159a-41c1-b1b1-fda1d0af2e43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day7_advanced_topic/ChangeHeading.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day7_advanced_topic/CreateDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7_advanced_topic/jdbc/CreateDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day7_advanced_topic/DateClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7_advanced_topic/socket/DateClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day7_advanced_topic/DateServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7_advanced_topic/socket/DateServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day7_advanced_topic/FillDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7_advanced_topic/multithreading/FillDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day7_advanced_topic/MultiThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7_advanced_topic/multithreading/MultiThreading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day7_advanced_topic/ThreadedFillDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7_advanced_topic/multithreading/ThreadedFillDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hellofx/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hellofx/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hellofx/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hellofx/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hellofx/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hellofx/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hellofx/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hellofx/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hellofx/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hellofx/hellofx.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hellofx/src/sample/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hellofx/src/sample/sample.fxml" beforeDir="false" />
-    </list>
+    <list default="true" id="7e776c5a-159a-41c1-b1b1-fda1d0af2e43" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +13,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,7 +92,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,6 +114,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,16 +263,17 @@
       <workItem from="1562962168697" duration="1952000" />
       <workItem from="1563032432963" duration="2624000" />
       <workItem from="1563043956001" duration="124000" />
+      <workItem from="1563045045940" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67135000" />
+    <option name="totallyTimeSpent" value="67145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1936" height="1048" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20415778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -666,16 +645,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day7_javafx/JavaFXApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day7_javafx/JavaFXApp.java" />
     <entry file="file://$PROJECT_DIR$/src/assignment2/ReadTextFileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
