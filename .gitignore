@@ -161,3 +161,4 @@ nb-configuration.xml
 *.war
 *.ear
 /CRUDExample/nbproject/private/
+/LibraryJH/nbproject/private/
